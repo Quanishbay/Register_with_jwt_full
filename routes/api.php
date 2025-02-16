@@ -22,3 +22,6 @@ Route::group(['prefix' => 'users'], function () {
 Route::group(['prefix' => 'fruits'], function () {
     Route::get('/', [IndexController::class, 'index']);
 });
+
+
+## Test
